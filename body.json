@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Vaishali",
+               "short_name" : "Vaishali",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Ghaziabad",
+               "short_name" : "Ghaziabad",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Ghaziabad",
+               "short_name" : "Ghaziabad",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Uttar Pradesh",
+               "short_name" : "UP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Vaishali, Ghaziabad, Uttar Pradesh, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 28.6566109,
+                  "lng" : 77.3595911
+               },
+               "southwest" : {
+                  "lat" : 28.63189,
+                  "lng" : 77.317212
+               }
+            },
+            "location" : {
+               "lat" : 28.6433175,
+               "lng" : 77.33818939999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6566109,
+                  "lng" : 77.3595911
+               },
+               "southwest" : {
+                  "lat" : 28.63189,
+                  "lng" : 77.317212
+               }
+            }
+         },
+         "place_id" : "ChIJPcrGetD6DDkRlv1Qsi6Ul0c",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -4,11 +4,11 @@ function geocodeAddress(address, callback){
     
     //taking the address and encoding it as a uri component
     var encode_add = encodeURIComponent(address); 
-    
+    var APIkey = 'myAPIkey(not shown due to security reasons)'
     // Down here request method is being called with the first argument being the options arguments and the
     // second argument is the callback which gets fired when the json object comes back.
     request({
-        url:`https://maps.googleapis.com/maps/api/geocode/json?address=${encode_add}`,
+        url:`https://maps.googleapis.com/maps/api/geocode/json?address=${encode_add}&key=${APIkey}`,
         json:true // This converts the result into a json object automatically.
         }, (error, response, body)=>{
             if(error){

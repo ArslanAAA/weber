@@ -12,11 +12,18 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+        <style>
+            a:hover{
+                color:wheat;
+                text-decoration:none; 
+            }
+        </style>
 	</head>
 	<body class="homepage">
 
@@ -25,7 +32,7 @@
 				<div class="container">
 						
 					<!-- Logo -->
-						<h1><a href="#" id="logo">Weber</a></h1>
+						<h1><a href="#" id="logo" >Weber</a></h1>
 					
 					<!-- Nav -->
 						<nav id="nav">
@@ -53,7 +60,10 @@
 										<h2>Welcome to Weber!</h2>
 										<span class="byline"> A Weather Web-Application that gets you the weather of any place in the world using Google Maps API and DarkSky API </span>
 									</header>
-									<a href="#" class="button alt">Sign Up</a>
+									<div class="form-group">
+      <label for="email">Please enter your address:</label>
+      <input type="email" class="form-control" id="Address" placeholder="Enter Address" name="Address" style="width: 50%;margin-left:inherit;margin-left: auto;margin-right: 16em">
+                                    </div>
 								</section>			
 							</div>
 						</div>
